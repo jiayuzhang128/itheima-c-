@@ -3,22 +3,24 @@
 //
 
 #include <iostream>
-#define Day 7 //Í¨¹ıºê¶¨Òå±äÁ¿
+#define Day 7 //å®å®šä¹‰å¸¸æ•°
 using namespace std;
 
 int main()
 {
-    int a = 10;   //±äÁ¿
+    int a = 10;   //å˜é‡
 
-    const int month = 12;
+    const int month = 12; // const ä¿®é¥°å¸¸é‡
+
+    cout << "Hello World!" << endl;
 
     cout << a << endl;
 
-    cout << "Ò»ÖÜÓĞ£º" << Day << "Ìì" << endl;
+    cout << "ä¸€å‘¨æœ‰" << Day << "å¤©" << endl;
 
-    cout << "Ò»ÄêÓĞ£º" << month << "¸öÔÂ" << endl;
+    cout << "ä¸€å¹´æœ‰" << month << "ä¸ªæœˆ" << endl;
 
-    system("pause");
+    // system("pause");
 
     return 0;
 }
