@@ -22,6 +22,21 @@ int main(){
     cout << "======================================================" << endl;
     /* 元素逆置 */
     // 先声明五个元素的数组，并将素组元素逆置
+    int fivenums[] = {1,2,3,4,5,6,7,8,9};
+    int length = sizeof(fivenums)/sizeof(fivenums[0]);
+    for (int a = 0;a<length;a++){
+        cout << fivenums[a] << endl;
+    }
+    int temp = 0;
+    for (int i = 0;i < length/2;i++){
+        temp = fivenums[length-i-1];
+        fivenums[length-i-1] = fivenums[i];
+        fivenums[i] = temp;
+    }
+    cout << "======================================================" << endl;
+    for (int a = 0;a<length;a++){
+        cout << fivenums[a] << endl;
+    }
     
 
 }
