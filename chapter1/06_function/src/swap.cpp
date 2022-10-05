@@ -1,4 +1,4 @@
-#include "./05_utils.h"
+#include "05_utils.h"
 
 void swap(int a, int b)
 {

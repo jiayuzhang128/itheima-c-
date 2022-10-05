@@ -39,3 +39,7 @@ cmake-build-debug
 # vscode
 
 .vscode
+
+# CMake
+
+build

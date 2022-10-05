@@ -1,7 +1,8 @@
-cmake_minimum_required(VERSION 3.21)
-project(itheima_cpp)
+cmake_minimum_required(VERSION 3.10)
 
-set(CMAKE_CXX_STANDARD 14)
+project(itheima-cpp)
 
-add_executable(itheima_cpp
-        chapter1/helloworld.cpp)
+set(CMAKE_CXX_STANDARD 11)
+
+add_subdirectory(chapter1 ../chapter1/build)
+
