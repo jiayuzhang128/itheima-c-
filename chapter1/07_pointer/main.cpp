@@ -21,4 +21,13 @@ int main()
     /* 指针的内存空间 */
     // 32位系统所有指针占4个字节，64位系统占8个字节
     pointerspace();
+
+    /* 空指针 */
+    nullpointer();
+
+    /* 野指针 */
+    wildpointer();
+
+    /* const修饰指针 */
+    constpointer();
 }
