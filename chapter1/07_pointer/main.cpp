@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "head.h"
 
 using namespace std;
@@ -30,4 +31,11 @@ int main()
 
     /* const修饰指针 */
     constpointer();
+
+    /* 数组与指针 */
+    int arr1[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int len = sizeof(arr1) / sizeof(arr1[0]);
+    arraypointer(arr1, len);
+    // string str = "123";
+    // cout << str.size() << endl;
 }
