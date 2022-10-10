@@ -38,4 +38,26 @@ int main()
     arraypointer(arr1, len);
     // string str = "123";
     // cout << str.size() << endl;
+
+    /* 函数与指针 */
+    funcpointer();
+
+    /* 指针练习 */
+    cout << "==============排序前==================" << endl;
+    int array2[] = {3, 4, 67, 8, 68, 6969, 79, 79, 7};
+    int *q = array2;
+    for (int i = 0; i < len; i++)
+    {
+        cout << *q << endl;
+        q++;
+    }
+    cout << "===============排序后=================" << endl;
+    len = sizeof(array2) / sizeof(array2[0]);
+    pointercase(array2, len);
+    int *t = array2;
+    for (int i = 0; i < len; i++)
+    {
+        cout << *t << endl;
+        t++;
+    }
 }
