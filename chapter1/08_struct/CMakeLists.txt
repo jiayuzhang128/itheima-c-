@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 
 project(struct)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
 message(${CMAKE_CURRENT_SOURCE_DIR})
 message(${CMAKE_CURRENT_BINARY_DIR})
